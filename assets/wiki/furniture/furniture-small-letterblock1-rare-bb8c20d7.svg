@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="17.058065"
+   height="15.994643"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="FURNITURE small_letterblock1 (Rare).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <g
+     transform="translate(8.5,8)"
+     id="g5">
+    <g
+       id="g2">
+      <g
+         id="DefineShape_4287">
+        <path
+           d="m 8.25,-6.5 0.25,5 Q 8.8,7.9 7.55,7.9 L 7.35,7.85 7,7.95 H -5.8 Q -8.15,8.2 -8.3,7.05 L -8.45,6.6 V 3.2 0.65 l -0.05,-6.85 0.25,-0.7 0.05,-0.15 0.1,-0.1 0.7,-0.6 L -6.8,-8 H 6.4 q 2,0.15 2,1.05 L 8.25,-6.5 m -2,1.9 -0.2,-0.6 h -12.1 l -0.1,0.2 -0.2,0.5 v 0.1 l 0.05,0.55 -0.05,2.25 v 1.55 q 0.2,3.2 0,5 L -5.9,5.35 6.1,5.4 6.35,5.05 6.25,3.9 V 0.35 Q 6.15,-1.3 6.2,-2.9 L 6.3,-4.5 6.25,-4.6"
+           fill="#575757"
+           fill-rule="evenodd"
+           stroke="none"
+           id="path1" />
+        <path
+           d="M 6.25,-4.6 6.3,-4.5 6.2,-2.9 Q 6.15,-1.3 6.25,0.35 V 3.9 L 6.35,5.05 6.1,5.4 -5.9,5.35 -6.35,4.95 q 0.2,-1.8 0,-5 V -1.6 L -6.3,-3.85 -6.35,-4.4 v -0.1 l 0.2,-0.5 0.1,-0.2 h 12.1 l 0.2,0.6"
+           fill="#b39eba"
+           fill-rule="evenodd"
+           stroke="none"
+           id="path2" />
+      </g>
+    </g>
+    <g
+       transform="translate(-72.2,-5.5)"
+       id="g4">
+      <g
+         id="DefineText_4288">
+        <g
+           transform="translate(68.3)"
+           id="g3">
+          <use
+             fill="#575757"
+             height="9.8000002"
+             transform="matrix(0.0078,0,0,0.0078,0,9)"
+             width="12.4"
+             xlink:href="#font_Team_Meat_font_U0"
+             id="use2" />
+        </g>
+      </g>
+      <defs
+         id="defs3">
+        <g
+           id="font_Team_Meat_font_U0">
+          <path
+             d="m 694,-972 q -122,0 -162,199.5 0,40.5 99.5,261.5 -19,312 -74.5,324 H 519.5 Q 345,-187 258,-448.5 q -37.5,-486 -100,-486 -112,0 -112,149.5 v 187 q 0,158.5 50,299 92.5,324 373.5,324 45,0 112.5,-12.5 236.5,-99 236.5,-311.5 v -324 q -14,-349 -99.5,-349 h -25"
+             fill-rule="evenodd"
+             stroke="none"
+             id="path3" />
+        </g>
+      </defs>
+    </g>
+  </g>
+</svg>

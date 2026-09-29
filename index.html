@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>喵喵图鉴助手 · Mewgenics Codex</title>
+<meta name="description" content="Mewgenics（喵喵的结合）随行工具与图鉴：Boss 备战、Build 配装、繁殖规划、战斗计算及新手学习">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/style.css?v=20260929m">
+</head>
+<body>
+<canvas class="paper-texture" id="paperTexture" aria-hidden="true"></canvas>
+
+<header class="topbar">
+  <button class="icon-btn mobile-nav-toggle" id="mobileNavToggle" title="打开目录" aria-label="打开目录">☷</button>
+  <div class="brand">
+    <span class="brand-paw" aria-hidden="true">^..^</span>
+    <div class="brand-text">
+      <strong>喵喵图鉴助手</strong>
+      <span class="brand-sub">MEWGENICS CODEX</span>
+    </div>
+  </div>
+
+  <nav class="mode-tabs" role="tablist">
+    <button class="mode-tab" data-mode="companion" role="tab"><span aria-hidden="true">I</span> 随行</button>
+    <button class="mode-tab" data-mode="codex" role="tab"><span aria-hidden="true">II</span> 图鉴</button>
+    <button class="mode-tab" data-mode="learn" role="tab"><span aria-hidden="true">III</span> 学习</button>
+  </nav>
+
+  <div class="top-actions">
+    <span class="version-badge" id="versionBadge">v1.1</span>
+    <button class="icon-btn" id="themeToggle" title="切换主题" aria-label="切换主题">◐</button>
+  </div>
+</header>
+
+<!-- 搜索行（查询模式） -->
+<div class="searchbar" id="searchbar">
+  <div class="search-box">
+    <span class="search-icon" aria-hidden="true">⌕</span>
+    <input type="text" id="globalSearch" placeholder="跨全库搜索：职业 / 技能 / 突变 / 疾病 / 敌人 / Boss / 物品…（按 / 快速聚焦）" autocomplete="off">
+    <button class="search-clear" id="searchClear" title="清空">✕</button>
+  </div>
+  <div class="search-suggestions hidden" id="searchSuggestions" role="listbox" aria-label="搜索建议"></div>
+  <div class="search-hint" id="searchHint"></div>
+</div>
+
+<div class="app">
+  <div class="sidebar-mask hidden" id="sidebarMask"></div>
+
+  <!-- 侧边导航 -->
+  <aside class="sidebar" id="sidebar">
+    <nav id="sideNav"></nav>
+    <div class="sidebar-foot">
+      <div>数据基准 <span id="sideVersion"></span></div>
+      <div>非官方工具 · 图片来自 <a href="https://mewgenics.wiki.gg/wiki/House" target="_blank" rel="noreferrer">Mewgenics Wiki</a> · 游戏美术版权归原作者</div>
+    </div>
+  </aside>
+
+  <!-- 主区域 -->
+  <main class="main" id="main">
+    <!-- 概览 -->
+    <section class="view" id="view-home"></section>
+    <!-- 数据库列表 -->
+    <section class="view hidden" id="view-db"></section>
+    <!-- 全局搜索结果 -->
+    <section class="view hidden" id="view-search"></section>
+    <!-- Markdown 资料页 -->
+    <section class="view hidden" id="view-page"></section>
+    <!-- 新手课堂 -->
+    <section class="view hidden" id="view-learn"></section>
+    <!-- Boss 备战 -->
+    <section class="view hidden" id="view-boss"></section>
+    <!-- Build 配装器 -->
+    <section class="view hidden" id="view-build"></section>
+    <!-- 繁殖规划器 -->
+    <section class="view hidden" id="view-breed"></section>
+    <!-- 战斗计算器 -->
+    <section class="view hidden" id="view-calc"></section>
+  </main>
+</div>
+
+<!-- 详情抽屉 -->
+<div class="drawer-mask hidden" id="drawerMask"></div>
+<aside class="drawer hidden" id="drawer" aria-label="详情"></aside>
+
+<nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="移动端导航">
+  <button data-mobile-route="#/home"><span>HM</span>随行</button>
+  <button data-mobile-search><span>⌕</span>搜索</button>
+  <button data-mobile-route="#/codex"><span>DB</span>图鉴</button>
+  <button data-mobile-route="#/learn/0"><span>?</span>学习</button>
+</nav>
+
+<script src="assets/data.js?v=20260929m"></script>
+<script src="assets/wiki-assets.js?v=20260929m"></script>
+<script src="assets/app.js?v=20260929m"></script>
+</body>
+</html>
